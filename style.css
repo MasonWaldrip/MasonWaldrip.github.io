@@ -1,0 +1,43 @@
+#header {
+    background-color: #FFF5E0;
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0%;
+}
+
+#navigation {
+    background-color: #FFF5E0;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 15%;
+}
+
+.tablink { 
+    position: relative;
+    cursor: pointer;
+    background-color: #FFF5E0;
+    top: 45%;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: hidden;
+    transition-duration: 0.4s;
+}
+.tablink:hover {
+    background-color: red;
+}
+
+#logo {
+    position: absolute;
+    top: 5%;
+    align-self: auto;
+    height: 80%;
+}
